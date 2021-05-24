@@ -14,7 +14,7 @@ menu "SWEEP Configuration"
             bool "RMT - Addressable LED"
     endchoice
 
-    config BLINK_LED_RMT_CHANNEL
+        config BLINK_LED_RMT_CHANNEL
         depends on BLINK_LED_RMT
         int "RMT Channel"
         range 0 7
