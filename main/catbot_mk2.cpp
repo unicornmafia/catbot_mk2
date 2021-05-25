@@ -1,9 +1,6 @@
-/*
-Code is adapted from 
-
-https://github.com/nkolban/esp32-snippets/blob/master/hardware/servos/servoSweep.c
-
-*/
+// catbot MK2
+// a laser to play with cats.
+// also flashes the addressable LED
 
 #include <stdio.h>
 #include <stdlib.h>
